@@ -1,0 +1,105 @@
+body {
+  background: #2c2b3d;
+  font-family: 'open-sans', sans-serif;
+}
+
+nav {
+  width: 1083px;
+  margin: 71px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  display: flex;
+  list-style: none;
+  gap: 64px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  color: black;
+}
+
+div .page {
+  width: 1092px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 101px auto;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  line-height: 28px;
+}
+
+main section h1 {
+  font-family: 'JetBrains Mono', monospace;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 59px;
+}
+
+section h1 span {
+  color: #00bfa6;
+}
+
+main section p {
+  font-family: 'open-sans', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  color: #c2c2c2;
+}
+
+main section p span {
+  color: #00bfa6;
+}
+
+footer {
+  width: 568px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 164px auto;
+}
+
+footer section {
+  color: #ffffff;
+}
+
+footer section a {
+  color: #ffffff;
+}
+
+footer section a:hover {
+  color: black;
+}
+
+#line {
+  width: 568px;
+  border: 1px #00bfa6 solid;
+  height: 0px;
+  margin-bottom: 27px;
+}
+
+#logo2 {
+  position: absolute;
+  width: 51px;
+  height: 62px;
+  left: 93px;
+  top: 666px;
+}
